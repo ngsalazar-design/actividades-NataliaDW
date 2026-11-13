@@ -1,0 +1,69 @@
+<!-- Este desarrollo vamos a diseñar una tarjeta interactiva de Navidad-->
+ <!--Nombre: Natalia Salazar-->
+ <!--Actividad 1-->
+
+ <!DOCTYPE html> <!--Esta estiqueta declaro el tipo de documento-->
+<html lang="es">
+<head>
+    <!--El titulo de la pagina no es visibles en el desarrollo pero es lo que funciona para el SEO-->
+<title>Tarjeta de Navidad | Personalizados </title>
+<!--En la etiqueta head va todo lo que no es visible en la pagina web pero la hace funcionar-->
+<!--A continuación los meta datos para que la pagina reconozca, caractéres especiales, y 
+se adapte a diferentes dispositivos-->
+
+<meta charset="UTF-8"> <!-- Este metadato es para los caracteres especiales--> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Free Web tutorials">
+<meta name="author" content="Natalia Salazar">
+
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css"
+</head> <!-- HASTA AQUI VA LA HEAD-->
+
+<!-- INICIA EL BODY-->
+ <body>
+<div class="main-container">
+   <!-- Cover -->
+   <div class="page active" id="page-0">
+    <div class="float-container">
+     <img src="Cover.jpg" alt="Muñeco de nieve" class="Cover-img">
+    </div>
+    <h1 class="cover-title">FELIZ NAVIDAD🎅🏻</h1>
+    <p class="cover-subtitle">CON MUCHO CARIÑO</p>
+    <button id="btn-enter" class="btn-primary">
+      <span class="btn-text">Entrar </span>
+    </button>
+    </button>
+   </div>
+   <!-- mensajae paágina 1 -->
+    <div class="page" id="pagina1">
+    <div class="photo-circle">
+      <img class="photo-img" loading="lazy" src="Foto2.jpg" alt="Santa Claus">
+    </div>
+    <p class="msg-text">¡Te deseo felices fiestas! ❤️‍🔥</p>
+    <button id="btn-next-1" class="btn-secondary">
+      <span class="btn-text">Siguiente</span>
+    </button>
+   </div>
+<!-- mensajae paágina 2 -->
+<div class="page" id="pagina2">
+    <h2 class="gallery-title">¡Que tengas una Navidad llena de amor y alegría! ✨</h2>
+    <div class="gallery-grid">
+     <div class="gallery-item gold-border">
+      <img class="gallery-img" loading="lazy" src="Imagen1.jpg" alt="Pato navideño">
+     </div>
+     <div class="gallery-item gold-border">
+      <img class="gallery-img" loading="lazy" src="Imagen2.jpg" alt="Mono navideño">
+     </div>
+     <div class="gallery-item gold-border">
+      <img class="gallery-img" loading="lazy" src="Imagen3.jpg" alt="Perro navideño">
+     </div>
+    </div>
+  
+    <p class="gallery-caption">Cada foto guarda Que esta Navidad esté llena de amor, alegría y momentos especiales.¡Te deseo una Navidad hermosa y un año nuevo lleno de bendiciones!📸</p>
+</div>
+
+<script src="script.js"></script>    
+</body>
+</html>
